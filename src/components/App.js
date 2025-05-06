@@ -100,7 +100,7 @@ export default function App() {
   );
 
   useEffect(function () {
-    fetch("https://github.com/samidejen/React_quiz_api/questions.json")
+    fetch("https://raw.githubusercontent.com/samidejen/eact-quiz.io/refs/heads/main/questions.json")
       .then((res) => res.json())
       .then((data) =>
         dispatch({
